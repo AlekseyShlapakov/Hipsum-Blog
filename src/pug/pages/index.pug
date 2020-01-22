@@ -1,3 +1,7 @@
+include ./../mixins/_posts.pug
+include ./../mixins/_resent-posts.pug
+
+
 <!DOCTYPE html>
 html(lang="ru")
     head
@@ -11,6 +15,7 @@ html(lang="ru")
     body
 
         include ./../sections/_header.pug
+        include ./../sections/_content.pug
 
     script(src="js/main.js")
 

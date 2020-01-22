@@ -1,0 +1,22 @@
+mixin post(title, subtitle, img, text)
+    .middle-left
+        h2.middle-left__title
+            | #{title}
+        .middle-left__subtitle
+            | #{subtitle}
+        .middle-left__img
+            img(src='./img/' + img , alt= title)
+        p.middle-left__text
+            | #{text}
+        .middle-left__bottom
+          .middle-left__button
+            | read more &gt;&gt;
+          .middle-left__icons
+            a(href='#')
+              img(src='./img/whatsapp.svg', alt='whatsapp')
+            a(href='#')
+              img(src='./img/instagram.png', alt='instagram')
+            a(href='#')
+              img(src='./img/twitter.png', alt='twitter')
+            a(href='#')
+              img(src='./img/facebook-f.png', alt='facebook')

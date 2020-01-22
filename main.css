@@ -76,8 +76,118 @@ font-family: 'Playfair Display', serif;*/
   cursor: pointer;
 }
 
-.middlel {
+.middle {
   width: 100%;
-  height: 140px;
   color: #1a1a1a;
+}
+
+.row-middle {
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+
+}
+
+.middle-left {
+  padding-top: 50px;
+  width: 870px;
+}
+
+.middle-left__title {
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.middle-left__subtitle {
+  color: #b0b0b0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.middle-left__text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+
+.middle-left__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dde2e7;
+  padding-bottom: 40px;
+}
+
+.middle-left__button {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.24px;
+  border-radius: 6px;
+  background-color: #375573;
+  padding: 18px 30px;
+  margin-top: 15px;
+}
+
+.middle-left__icons a {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.middle-left__icons a:last-child {
+  margin-right: 0;
+}
+
+.middle-right {
+  width: 270px;
+}
+
+.middle-right__title {
+  font-size: 21px;
+  font-weight: 900;
+  border-radius: 4px;
+  border: 1px solid #dde2e7;
+  padding: 22px 74px;
+  margin-top: 60px;
+}
+
+.middle-right__img {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.middle-right__subtitle {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 18px;
+  text-align: center;
+}
+
+.middle-right__description {
+  color: #b0b0b0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #dde2e7;
 }
