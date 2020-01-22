@@ -1,0 +1,37 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;*/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+  font-family: 'Montserrat';
+  
+}
+
+.top-panel {
+  width: 100%;
+  height: 78px;
+  background-color: black;
+  color: #FFF;
+}
+
+.container {
+  width: 1060px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.row-top-panel {
+  display: flex;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
