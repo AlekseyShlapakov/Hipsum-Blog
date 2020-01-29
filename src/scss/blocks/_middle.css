@@ -65,6 +65,7 @@
   background-color: #375573;
   padding: 18px 30px;
   margin-top: 15px;
+  cursor: pointer;
 }
 
 .middle-left__icons a {
@@ -102,6 +103,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.28px;
+  cursor: pointer;
 }
 
 .middle-right {

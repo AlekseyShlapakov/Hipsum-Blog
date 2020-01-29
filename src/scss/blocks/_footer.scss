@@ -10,13 +10,14 @@
     display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
-    align-items: center;
+    // align-items: center;
     height: 100%;
     width: 1020px;
   }
   
   .bottom-panel__footer {
-    padding-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 60px;
   }
   
   .bottom-panel__footer a {
@@ -27,4 +28,41 @@
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.32px
+  }
+
+  .bottom-panel__icons {
+      padding-top: 50px;
+  }
+
+  .bottom-panel__icons a {
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    cursor: pointer;
+  
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .copyright-panel {
+    width: 100%;
+    color: #1a1a1a;
+    height: 60px;
+    background-color: #e8ebee;
+  }
+  
+  .row-copyright-panel {
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .copyright-panel__text {
+    color: #b7babe;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
   }

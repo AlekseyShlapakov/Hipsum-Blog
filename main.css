@@ -267,3 +267,25 @@ font-family: 'Playfair Display', serif;*/
   font-weight: 500;
   letter-spacing: 0.32px
 }
+
+.copyright-panel {
+  width: 100%;
+  color: #1a1a1a;
+  height: 60px;
+  background-color: #e8ebee;
+}
+
+.row-copyright-panel {
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.copyright-panel__text {
+  color: #b7babe;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
