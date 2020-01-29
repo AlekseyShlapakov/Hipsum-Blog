@@ -47,7 +47,12 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #dde2e7;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
+  padding-top: 40px;
+}
+
+.middle-left__bottom--top {
+  padding-top: 40px;
 }
 
 .middle-left__button {
@@ -69,6 +74,34 @@
 
 .middle-left__icons a:last-child {
   margin-right: 0;
+}
+
+.middle-left__pagination a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.36px;
+  margin-right: 20px;
+}
+
+.middle-left__pagination a:last-child {
+  margin-right: 0;
+}
+
+.middle-left__pagination a span {
+  color: #e84c50;
+}
+
+.middle-left__pag {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.28px;
 }
 
 .middle-right {
@@ -111,4 +144,15 @@
   text-align: center;
   padding-bottom: 40px;
   border-bottom: 1px solid #dde2e7;
+}
+
+.middle-right__instagramm {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.middle-right__inst {
+  padding-bottom: 30px;
 }

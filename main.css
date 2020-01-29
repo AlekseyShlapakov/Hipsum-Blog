@@ -26,6 +26,10 @@ font-family: 'Playfair Display', serif;*/
   width: 1480px;
 }
 
+/* .container-small {
+  width: 1020px;
+} */
+
 .top-panel {
   width: 100%;
   height: 140px;
@@ -41,6 +45,7 @@ font-family: 'Playfair Display', serif;*/
   align-items: center;
   height: 100%;
 }
+
 
 .top-panel__icons a {
   margin-right: 30px;
@@ -127,6 +132,7 @@ font-family: 'Playfair Display', serif;*/
   align-items: center;
   border-bottom: 1px solid #dde2e7;
   padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .middle-left__button {
@@ -141,6 +147,11 @@ font-family: 'Playfair Display', serif;*/
   margin-top: 15px;
 }
 
+.middle-left__button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .middle-left__icons a {
   margin-right: 25px;
   cursor: pointer;
@@ -148,6 +159,34 @@ font-family: 'Playfair Display', serif;*/
 
 .middle-left__icons a:last-child {
   margin-right: 0;
+}
+
+.middle-left__pagination a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.36px;
+  margin-right: 20px;
+}
+
+.middle-left__pagination a:last-child {
+  margin-right: 0;
+}
+
+.middle-left__pagination a span {
+  color: #e84c50;
+}
+
+.middle-left__pag {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.28px;
 }
 
 .middle-right {
@@ -190,4 +229,41 @@ font-family: 'Playfair Display', serif;*/
   text-align: center;
   padding-bottom: 40px;
   border-bottom: 1px solid #dde2e7;
+}
+
+.middle-right__instagramm {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bottom-panel {
+  width: 100%;
+  color: #1a1a1a;
+  border-bottom: 1px solid #dde2e7;
+  height: 196px;
+  background-color: #dde2e7;
+}
+
+.row-bottom-panel {
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 1020px;
+}
+
+.bottom-panel__footer {
+  padding-top: 60px;
+}
+
+.bottom-panel__footer a {
+  display: block;
+  text-decoration: none;
+  color: #8e9399;
+  padding-bottom: 23px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px
 }
